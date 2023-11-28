@@ -27,10 +27,11 @@ export class BowlingGame {
         { frame: 9, attempt: 2 },
         { frame: 10, attempt: 1 },
         { frame: 10, attempt: 2 },
-        // Add more frames and attempts as needed
+      
     ];
 
-    frameDetails.forEach(({ frame, attempt }) => {
+      frameDetails.forEach(({ frame, attempt }) => {
+      let remainingPins  =0;
         enterFrameDetails(frame, attempt).then((score) => {
             this.rolls.push(score);
             if (score === 10) {

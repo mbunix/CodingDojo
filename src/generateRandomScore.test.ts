@@ -8,7 +8,7 @@ describe("generateRandomScore", () => {
   });
 
   it("should generate a random score between 0 and remaining pins for the second try in a frame", () => {
-    const firstTryScore = 5;
+    const firstTryScore : number = 5;
     const remainingPins = 10 - firstTryScore;
 
     const score = generateRandomScore(1, 2, remainingPins);
