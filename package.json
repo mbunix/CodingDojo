@@ -1,0 +1,26 @@
+{
+  "name": "codingdojo",
+  "version": "1.0.0",
+  "description": "a coding kata for a bowling search problem",
+  "main": "main.ts",
+  "scripts": {
+    "test": "tsc  && jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbunix/CodingDojo.git"
+  },
+  "keywords": [
+    "codulingo"
+  ],
+  "author": "bellianotieno24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbunix/CodingDojo/issues"
+  },
+  "homepage": "https://github.com/mbunix/CodingDojo#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.10",
+    "jest": "^29.7.0"
+  }
+}
