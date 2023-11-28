@@ -2,7 +2,6 @@ import { BowlingGame } from './bowlingGame';
 
 describe('BowlingGame', () => {
   let game: BowlingGame;
-
   beforeEach(() => {
     game = new BowlingGame();
   });
@@ -37,7 +36,7 @@ describe('BowlingGame', () => {
     expect(game.score()).toBe(300);
   });
 
-  function rollMany(n: number, pins: number) {
+  function rollMany(n : number, pins: number) {
     for (let i = 0; i < n; i++) {
       game.roll(pins);
     }
