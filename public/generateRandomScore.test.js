@@ -6,7 +6,6 @@ describe("generateRandomScore", () => {
         const score = (0, generateRandomScore_1.generateRandomScore)(10, 1);
         expect(score).toBeGreaterThanOrEqual(0);
         expect(score).toBeLessThanOrEqual(10);
-        expect(score).toBeLessThanOrEqual(10);
     });
     it("should generate a random score between 0 and remaining pins for the second try in a frame", () => {
         const firstTryScore = 5;

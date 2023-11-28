@@ -42,7 +42,7 @@ describe("playGame", () => {
     expect(enterFrameDetails).toHaveBeenCalledTimes(20);
     expect(enterFrameDetails).toHaveBeenCalledWith(1, 1);
     expect(enterFrameDetails).toHaveBeenCalledWith(1, 2, 6);
-    // ... additional expectations for each frame
+    // 
   });
 });
 

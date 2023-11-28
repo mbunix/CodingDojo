@@ -48,6 +48,6 @@ describe("playGame", () => {
         expect(generateRandomScore_1.enterFrameDetails).toHaveBeenCalledTimes(20);
         expect(generateRandomScore_1.enterFrameDetails).toHaveBeenCalledWith(1, 1);
         expect(generateRandomScore_1.enterFrameDetails).toHaveBeenCalledWith(1, 2, 6);
-        // ... additional expectations for each frame
+        // 
     }));
 });
